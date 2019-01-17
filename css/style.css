@@ -1,0 +1,147 @@
+body {
+	overflow-x: hidden;
+	font-family: "Opan sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: gray;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt40 {
+	margin-top: 40px !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* prijava i registracija */
+
+.prijava, .registracija {
+	color: #fff;
+	background: #666;
+    text-align: center;
+}
+
+#user_result {
+	position: absolute;
+}
+
+#login, #register {
+	width: 20%;
+	background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 10px;
+}
+
+#login h1, #register h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+#login input, #register input {
+	color: #444;
+	width: 80%;
+	border: 0;
+	padding: 5px 10px;
+
+}
+
+#login .btn, #register .btn {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #23527c;
+    border-radius: 0;
+    font-family: "Opan sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* naslovna */
+
+@media (min-width: 1200px) {
+	.naslovna .container {
+    	width: 900px;
+	}
+}
+
+.naslovna .col-xs-12 {
+	padding: 0;
+}
+
+.naslovna .box {
+	border: 4px solid #337ab7;
+	margin-top: 3%;
+	padding: 20px;
+}
+
+.naslovna .box h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.naslovna .btn-link {
+	padding: 0;
+	display: block;
+}
+
+.naslovna .small-box {
+	border: 2px solid #ddd;
+	margin: 0 auto;
+	padding: 10px;
+	float: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* slanje paketa */
+
+@media (min-width: 1200px) {
+	.slanje-paketa .container {
+    	width: 700px;
+	}
+}
+
+.slanje-paketa .col-xs-12 {
+	padding: 0;
+}
+
+.slanje-paketa .box {
+	border: 4px solid #337ab7;
+	margin-top: 10%;
+	padding: 20px;
+}
+
+.slanje-paketa .box h2 {
+	color: #337ab7;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.slanje-paketa .small-box {
+	border: 2px solid #ddd;
+	margin: 0 auto;
+	padding: 10px;
+	float: none;
+}
+
+.slanje-paketa form p:last-child {
+	margin-bottom: 0;
+}
+
+.naslovna .box{
+	background-color: white;
+}
